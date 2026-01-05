@@ -71,11 +71,12 @@ def handle_services(message):
         bot.send_message(chat_id, res)
 
     elif text == '📢 المطور':
-        bot.send_message(chat_id, "تم تطوير هذا البوت لخدمتك مجاناً.\nللتواصل: [ضع يوزرك هنا]")
+        bot.send_message(chat_id, "تم تطوير هذا البوت لخدمتك مجاناً.\nللتواصل: [  00967772786907]")
 
     else:
         bot.reply_to(message, "اختر خدمة من القائمة، أو انتظر تحديثات جديدة!")
 
 if __name__ == "__main__":
     keep_alive()
+
     bot.infinity_polling()
